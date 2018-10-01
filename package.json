@@ -1,0 +1,15 @@
+{
+  "name": "stencil-ie-ssue",
+  "private": true,
+  "workspaces": [
+    "packages/**"
+  ],
+  "scripts": {
+    "build": "lerna bootstrap && lerna run build",
+    "start": "npm run build && http-server"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "lerna": "^3.4.0"
+  }
+}

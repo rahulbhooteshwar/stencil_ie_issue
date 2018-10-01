@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Stencil Demo Page</title>
+  <script src="packages/demo-child/www/build/demochild.js"></script>
+  <script src="packages/demo-parent-one/www/build/demoparentone.js"></script>
+  <script src="packages/demo-parent-two/www/build/demoparenttwo.js"></script>
+</head>
+<body>
+  <div style="margin:15px; padding: 15px; border: solid 2px green; height:200px;width: 400px">
+    <demo-child first="Independednt" last="Demo Child"></demo-child>
+  </div>
+  <div style="margin:15px; padding: 15px; border: solid 2px yellow; height:200px;width: 400px">
+    <demo-parent-one first="John" last="Doe"></demo-parent-one>
+  </div>
+  <div style="margin:15px; padding: 15px; border: solid 2px blue; height:200px;width: 400px">
+    <demo-parent-two first="Jane" last="Doe"></demo-parent-two>
+  </div>
+</body>
+</html>
