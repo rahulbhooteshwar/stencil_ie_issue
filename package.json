@@ -6,7 +6,7 @@
   ],
   "scripts": {
     "build": "lerna bootstrap && lerna run build",
-    "start": "npm run build && http-server"
+    "start": "http-server"
   },
   "devDependencies": {
     "http-server": "^0.11.1",

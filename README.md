@@ -22,8 +22,10 @@ We have 3 components here:
 
 ## Results
 
+### Chrome
 ![Chrome Result](https://github.com/rahulbhooteshwar/stencil_ie_issue/blob/master/docs/result_chrome.PNG "Chrome Result")
 
+### IE
 ![IE Result](https://github.com/rahulbhooteshwar/stencil_ie_issue/blob/master/docs/result_ie.PNG "IE Result")
 
 
