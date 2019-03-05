@@ -6,7 +6,7 @@ We have 3 components here:
 * demo-parent-one , it depends on demo-child & uses it from inside
 * demo-parent-two , it depends on demo-child & uses it from inside
 
-## What is the issue ?
+## What is this issue ?
 
 > All 3 components works as expected indepently on all browsers. When these components are included on same page using **component build scripts** and **selectors**, these works as expected on chrome browser but don't render on IE/Firefox.
 
